@@ -1,0 +1,29 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Pedro Margarido
+
+theme: PaperMod
+
+params:
+  author: Pedro Margarido
+  showReadingTime: true
+  showToc: true
+  TocOpen: false
+  description: Personal portfolio and blog
+  socialIcons:
+    - name: github
+      url: https://github.com/
+    - name: linkedin
+      url: https://linkedin.com/in/
+
+menu:
+  main:
+    - name: Posts
+      pageRef: posts
+      weight: 1
+    - name: Ideas
+      pageRef: ideas
+      weight: 2
+    - name: Resume
+      pageRef: resume
+      weight: 3
