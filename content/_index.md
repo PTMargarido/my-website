@@ -2,7 +2,7 @@
 title: "Pedro Margarido"
 name: "Pedro Margarido"
 role: "Senior Software Engineer"
-tagline: "Senior Software Engineer with 9+ years of experience in C++, DevOps, Legacy Systems and AI"
+tagline: "Senior Software Engineer @ ASML with 9+ years of experience in C++, DevOps, Legacy Systems and AI"
 location: "'s-Hertogenbosch, Netherlands"
 photo: "photo.jpg"
 experience:
