@@ -41,7 +41,7 @@ experience:
       - "Developed Python scripts to automate test steps and crafted C code for integration testing of Integrity RTOS and Linux user-space applications, increasing the total number of tests by 50%"
       - "Automated manual test cases to drive quality assurance initiatives, reducing total regression test time by 25%"
 education:
-  - degree: "MSc Avionics"
+  - degree: "MSc Aerospace"
     school: "Instituto Superior Técnico, University of Lisbon"
     year: "2016"
 projects:
