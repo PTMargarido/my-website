@@ -14,9 +14,9 @@ params:
 
 menu:
   main:
-    - name: RESUME
+    - name: Resume
       url: /#resume
       weight: 1
-    - name: CONTACT
+    - name: Contact
       url: /#contact
       weight: 2
