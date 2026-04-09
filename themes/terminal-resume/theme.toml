@@ -1,0 +1,12 @@
+name = "terminal-resume"
+license = "MIT"
+licenselink = "https://github.com/pedromargarido/my-online-page/blob/main/themes/terminal-resume/LICENSE"
+description = "Brutalist, monochrome resume theme inspired by xAI"
+homepage = "https://github.com/pedromargarido/my-online-page"
+tags = ["resume", "portfolio", "dark", "monospace", "brutalist"]
+features = ["dark-mode", "responsive", "single-page"]
+min_version = "0.146.0"
+
+[author]
+  name = "Pedro Margarido"
+  homepage = "https://github.com/pedromargarido"

@@ -1,0 +1,20 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="theme-color" content="#1f2228">
+
+  {{- /* Open Graph */ -}}
+  <meta property="og:title" content="{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}">
+  <meta property="og:description" content="{{ .Site.Params.description }}">
+  <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+
+  {{- /* Font preloads */ -}}
+  <link rel="preload" href="{{ "fonts/JetBrainsMono-Light.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "fonts/Inter-Light.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+
+  {{- /* CSS */ -}}
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>

@@ -1,29 +1,22 @@
-baseURL: https://example.org/
+baseURL: https://pedromargarido.github.io/my-online-page/
 languageCode: en-us
 title: Pedro Margarido
-
-theme: PaperMod
+theme: terminal-resume
 
 params:
   author: Pedro Margarido
-  showReadingTime: true
-  showToc: true
-  TocOpen: false
-  description: Personal portfolio and blog
-  socialIcons:
-    - name: github
-      url: https://github.com/
-    - name: linkedin
-      url: https://linkedin.com/in/
+  description: Software Engineer - Personal Resume
+  email: ptmmmargarido@gmail.com
+  
+  social:
+    github: https://github.com/PTMargarido
+    linkedin: https://linkedin.com/in/pedro-margarido
 
 menu:
   main:
-    - name: Posts
-      pageRef: posts
+    - name: RESUME
+      url: /#resume
       weight: 1
-    - name: Ideas
-      pageRef: ideas
+    - name: CONTACT
+      url: /#contact
       weight: 2
-    - name: Resume
-      pageRef: resume
-      weight: 3
