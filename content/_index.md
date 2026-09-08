@@ -13,7 +13,7 @@ experience:
     highlights:
       - "Component owner for UA (User Access, authentication in the main Qt application) and SM (System Manager, systemd-like service management across hosts)."
       - "In UA, lead engineer for federated login (IAM, PAM, SSSD). I own the architecture and design, defend it in cross-team reviews, and wrote its Squish and unit tests. Shipped on every machine type for the Cyber Resilience Act."
-      - "Wrote a tool that pulls static-analysis findings off the internal server as JSON, and an LLM skill that fixes them one finding per commit so reviewers can follow. About 1,000 findings cleared, most critical, from a 25-year backlog."
+      - "In SM, wrote a tool that pulls static-analysis findings off the internal server as JSON, and an LLM skill that fixes them one finding per commit for easy review. About 1,000 findings cleared, most critical, from a 25-year backlog."
       - "Deployed a Mistral-based PR-review agent on GitHub, adapted its harness and built the LLM-as-a-Judge evaluation set from our internal coding rules. F1 0.6 on that set; 5 to 15 severity-ranked findings per PR in the pilot."
       - "Knowledge-transfer sessions for the department on advanced Git, tmux code-to-test workflows and Neovim."
   - title: "Senior Software Engineer"
