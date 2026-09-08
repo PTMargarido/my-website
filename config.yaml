@@ -17,6 +17,9 @@ menu:
     - name: RESUME
       url: /#resume
       weight: 1
+    - name: WRITE-UPS
+      url: /#writeups
+      weight: 2
     - name: CONTACT
       url: /#contact
-      weight: 2
+      weight: 3

@@ -7,8 +7,11 @@
     </svg>
   </button>
   <nav id="nav-menu" class="nav-links" role="navigation" aria-label="Main navigation">
+    {{ $hasWriteups := gt (len (where .Site.RegularPages "Section" "writeups")) 0 }}
     {{ range .Site.Menus.main }}
+    {{ if or (ne .URL "/#writeups") $hasWriteups }}
     <a href="{{ .URL | relLangURL }}" class="nav-link">{{ .Name }}</a>
+    {{ end }}
     {{ end }}
   </nav>
 </header>

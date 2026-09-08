@@ -58,10 +58,29 @@
           {{ with .highlights }}
           <ul class="timeline-highlights">
             {{ range . }}
-            <li>{{ . }}</li>
+            <li>{{ . | markdownify }}</li>
             {{ end }}
           </ul>
           {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  {{ with (where .Site.RegularPages "Section" "writeups") }}
+  <div id="writeups" class="section-block">
+    <h2 class="section-heading">Write-ups</h2>
+    <p class="section-intro">Longer accounts of work I was handed cold: what I didn't know, what I found, what changed.</p>
+    <div class="timeline">
+      {{ range .ByWeight }}
+      <div class="timeline-entry">
+        <div class="timeline-period">{{ .Date.Format "2006" }}</div>
+        <div class="timeline-content">
+          <h3 class="timeline-title"><a href="{{ .RelPermalink }}" class="writeup-link">{{ .Title }}</a></h3>
+          {{ with .Params.context }}<p class="timeline-meta">{{ . }}</p>{{ end }}
+          <p class="timeline-description">{{ .Params.summary }}</p>
         </div>
       </div>
       {{ end }}
@@ -96,7 +115,7 @@
           {{ with .highlights }}
           <ul class="timeline-highlights">
             {{ range . }}
-            <li>{{ . }}</li>
+            <li>{{ . | markdownify }}</li>
             {{ end }}
           </ul>
           {{ end }}

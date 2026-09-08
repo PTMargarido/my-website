@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="single-content">
+  <a href="/" class="back-link">&larr; Back</a>
+  <h1>{{ .Title }}</h1>
+  <div class="prose">
+    {{ with .Pages }}
+    <ul>
+      {{ range .ByWeight }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.summary }} &mdash; {{ . }}{{ end }}</li>
+      {{ end }}
+    </ul>
+    {{ else }}
+    <p>Nothing published here yet.</p>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

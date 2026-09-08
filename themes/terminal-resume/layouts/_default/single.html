@@ -1,6 +1,10 @@
 {{ define "main" }}
 <article class="single-content">
+  <a href="/#writeups" class="back-link">&larr; Back</a>
   <h1>{{ .Title }}</h1>
-  {{ .Content }}
+  {{ with .Params.context }}<p class="single-meta">{{ . }}</p>{{ end }}
+  <div class="prose">
+    {{ .Content }}
+  </div>
 </article>
 {{ end }}
