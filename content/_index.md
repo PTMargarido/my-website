@@ -14,6 +14,7 @@ experience:
       - "Extended the main GUI application with IAM authentication for all machine types, ensuring compliance with the European Cyber Resilience Act (CRA)"
       - "Deployed a Mistral AI-powered GitHub PR-review agent and adapted its harness, and contributed to its LLM-as-a-Judge evaluation dataset; across an eval set and pilot it flagged ~10% of potential bugs earlier"
       - "Introduced Valgrind profiling to proactively surface and resolve performance bottlenecks and memory issues"
+      - "Led departmental knowledge-sharing sessions on developer productivity tools, such as, tmux-based automation for code-to-test workflows and advanced Git techniques including interactive rebase and patch-mode operations"
   - title: "Senior Software Engineer"
     company: "Hottinger Brüel & Kjær"
     location: "Waalwijk, Netherlands"
